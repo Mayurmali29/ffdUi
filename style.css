@@ -296,18 +296,23 @@ td {
   text-align: center;
   padding: 1rem;
 }
+.lifestyle_section {
+  border-radius: 0.5rem;
+}
 
 .odd > tbody > tr:nth-child(odd) {
   background-color: var(--primary_light_2);
 }
 
 /* medical history  */
-.medical_history{
+.medical_history {
+  background-color: var(--white);
   margin-top: 1rem;
+  border-radius: 0.5rem;
 }
-/* .diabetic_history{
-
-} */
+.diabetic_history {
+  border-radius: 0.5rem;
+}
 @media screen and (max-width: 1280px) {
   body {
     width: 1280px;
