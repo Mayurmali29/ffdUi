@@ -3,6 +3,7 @@
 :root {
   --primary: #1277cf;
   --primary_light: #a6e4f4;
+  --primary_light_1: #d9f4fa;
   --primary_light_2: #f2f8fd;
   --action: #f05a4e;
   --background: #e6f1fa;
@@ -12,6 +13,8 @@
   --font_color_secondary: #b5b5b5;
   --font_color_3: #5d5d5d;
   --hover_grey: #e5eaed;
+  --consult_tr_color: #f2f8fd;
+  --freedom_tr_color: #eff3f7;
 }
 
 *,
@@ -159,7 +162,7 @@ body {
   font-size: 1rem;
   color: var(--font_color_primary);
 }
-.section_header > button {
+.section_header > .edit {
   border: none;
   margin: 0;
   padding: 0;
@@ -168,6 +171,9 @@ body {
 .section_header > button > img {
   width: 35px;
   cursor: pointer;
+}
+.section_header2 {
+  height: 50px;
 }
 /* section header end */
 .table_wrapper {
@@ -310,9 +316,179 @@ td {
   margin-top: 1rem;
   border-radius: 0.5rem;
 }
-.diabetic_history {
+.diabetic_history,
+.physical_Examination,
+.consult {
   border-radius: 0.5rem;
 }
+/* consult history */
+.consult_History {
+  background-color: var(--white);
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.section_header > .add_new {
+  background-color: var(--action);
+  border: none;
+  font-weight: 700;
+  color: var(--white);
+  padding: 0.8rem;
+  border-radius: 0.5rem;
+}
+
+/* .consult_para {
+  padding: 1rem;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: left;
+  margin-bottom: 0.8rem;
+}
+.consult_headers > tbody > tr > td {
+  padding: 0.6rem 1rem;
+  /* border-radius: 0.5rem 0 0 0.5rem; */
+
+/* line-height: 1rem; */
+/* } */
+
+.consult_headers {
+  border-collapse: collapse;
+}
+
+.consult_headers > tbody > tr:nth-child(even) {
+  background-color: var(--primary_light);
+}
+.consult_headers > tbody > tr:nth-child(odd) {
+  background-color: var(--primary_light_1);
+}
+*/ .right_consult {
+  width: 80%;
+  height: 40px;
+  background-color: red;
+}
+
+.data_table_wrapper {
+  width: 100%;
+  overflow: scroll;
+  position: relative;
+}
+
+.data_table_wrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.data_table {
+  overflow-x: scroll;
+  position: relative;
+  border-collapse: collapse;
+}
+.data_table > tbody > tr > td,
+.data_table > tbody > tr > th {
+  /* width: 25%; */
+  padding: 0.2rem 1rem;
+  font-weight: 300;
+  text-align: center;
+}
+/* .data_table > tbody > tr:first-child > td,
+.data_table > tbody > tr > th {
+
+  text-align: center;
+} */
+
+.data_table > tbody > tr:nth-child(even) {
+  background-color: var(--consult_tr_color);
+}
+
+.data_table > tbody > tr:nth-child(even) > th {
+  background-color: var(--primary_light);
+}
+.data_table > tbody > tr:nth-child(odd) > th {
+  background-color: var(--primary_light_1);
+}
+
+.data_table > tbody > tr:first-child > th:first-child {
+  padding: 1rem 1.2rem;
+  width: 300px;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  background-color: var(--primary);
+  color: var(--white);
+  text-align: left;
+}
+
+.data_table > tbody > tr > th {
+  /* width: 300px; */
+  position: -webkit-sticky; /* for Safari */
+  position: sticky;
+  left: 0;
+  text-align: left;
+  padding: 0.8rem 1.2rem;
+  font-weight: 400;
+  /* border-bottom: 10px solid #fff; */
+}
+.data_table > tbody > tr:first-child > th {
+  border-bottom: 10px solid var(--white);
+}
+.data_table > tbody > tr:first-child > td {
+  border-bottom: 10px solid var(--white);
+}
+
+.consult_edit {
+  width: 180px;
+  display: flex;
+  justify-content: space-around;
+  border: 2px solid var(--grey);
+  padding: 0.8rem;
+  border-radius: 0.2rem;
+  color: var(--primary);
+  font-weight: 500;
+}
+.table_icon {
+  cursor: pointer;
+}
+.Physical_Measurements {
+  background-color: var(--white);
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.Treatment {
+  background-color: var(--white);
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.Remarks {
+  background-color: var(--white);
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.Lab_Report,
+.freedom_status {
+  background-color: var(--white);
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.freedom_stat {
+  border-radius: 0.5rem;
+}
+.freedom {
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.freedom_table {
+  margin-top: 0.5rem;
+}
+
+.freedom_table > tbody > tr > td {
+  text-align: center;
+  padding: 1rem;
+  font-weight: 300;
+}
+
+.freedom_table > tbody > tr:nth-child(even) {
+  background-color: var(--freedom_tr_color);
+}
+
 @media screen and (max-width: 1280px) {
   body {
     width: 1280px;

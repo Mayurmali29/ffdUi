@@ -54,19 +54,19 @@
         <a href="#generalSection">General Information</a>
       </button>
       <button class="btn">
-        <a href="#">Medical History</a>
+        <a href="#medical_history">Medical History</a>
       </button>
       <button class="btn">
-        <a href="#">Consult History</a>
+        <a href="#consult_History">Consult History</a>
       </button>
       <button class="btn">
-        <a href="#">Physical Measurements</a>
+        <a href="#Physical_Measurements">Physical Measurements</a>
       </button>
       <button class="btn">
-        <a href="#">Lab Report</a>
+        <a href="#Lab_Report">Lab Report</a>
       </button>
       <button class="btn">
-        <a href="#">Treatments & Remarks</a>
+        <a href="#Treatment">Treatments & Remarks</a>
       </button>
       <button class="btn">
         <a href="#">Freedom Status</a>
@@ -82,7 +82,7 @@
         <div class="profile_Details sub_section">
           <div class="section_header">
             <h1>Profile Details</h1>
-            <button>
+            <button class="edit">
               <img src="/assests/Edit Icon 2.svg" alt="Edit" />
             </button>
           </div>
@@ -450,7 +450,7 @@
         <div class="personal_details sub_section">
           <div class="section_header">
             <h1>Personal Details</h1>
-            <button>
+            <button class="edit">
               <img src="/assests/Edit Icon 2.svg" alt="Edit" />
             </button>
           </div>
@@ -551,7 +551,7 @@
         <div class="lifestyle_section sub_section">
           <div class="section_header">
             <h1>Lifestyle</h1>
-            <button>
+            <button class="edit">
               <img src="/assests/Edit Icon 2.svg" alt="Edit" />
             </button>
           </div>
@@ -655,7 +655,7 @@
         <div class="activation_details">
           <div class="section_header">
             <h1>Activation Details</h1>
-            <button>
+            <button class="edit">
               <img src="/assests/Edit Icon 2.svg" alt="Edit" />
             </button>
           </div>
@@ -727,11 +727,12 @@
           </div>
         </div>
       </section>
-      <section class="medical_history">
+      <section id="medical_history" class="medical_history">
+        <!-- diabetic history -->
         <div class="diabetic_history sub_section">
           <div class="section_header">
             <h1>Diabetic History</h1>
-            <button>
+            <button class="edit">
               <img src="/assests/Edit Icon 2.svg" alt="Edit" />
             </button>
           </div>
@@ -863,10 +864,12 @@
             </table>
           </div>
         </div>
-        <div class="Patient Summary sub_section">
+        <!-- Comorbidities & Complications History -->
+
+        <div class="Comorbidities sub_section">
           <div class="section_header">
             <h1>Comorbidities & Complications History</h1>
-            <button>
+            <button class="edit">
               <img src="/assests/Edit Icon 2.svg" alt="Edit" />
             </button>
           </div>
@@ -1036,10 +1039,240 @@
             </table>
           </div>
         </div>
+        <!-- Treatments -->
+        <div class="Comorbidities sub_section">
+          <div class="section_header">
+            <h1>Treatments</h1>
+            <button class="edit">
+              <img src="/assests/Edit Icon 2.svg" alt="Edit" />
+            </button>
+          </div>
+          <div class="table_wrapper">
+            <table class="table profile_Details_table even">
+              <tbody>
+                <tr>
+                  <td class="td">Heart Attack</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Heart Attack Date</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Angiography</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Angioplasty</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Bypass</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p>Yes</p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="td">Valvuloplasty</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Dialysis</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Laser Treatment</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                    <!-- -<span>#304, Mathrusree Village Homes,Yemlur</span> -->
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Eye Injections</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                    <!-- -<span>#304, Mathrusree Village Homes,Yemlur</span> -->
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Other</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                    <!-- -<span>#304, Mathrusree Village Homes,Yemlur</span> -->
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="td">No Treatment</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                    <!-- -<span>#304, Mathrusree Village Homes,Yemlur</span> -->
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="td">Kidney Stone</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                    <!-- -<span>#304, Mathrusree Village Homes,Yemlur</span> -->
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Medicine Since</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Heart Treatments Taken:</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                    <!-- -<span>#304, Mathrusree Village Homes,Yemlur</span> -->
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td"></td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span></span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Patient_Summary -->
         <div class="Patient_Summary sub_section">
           <div class="section_header">
             <h1>Patient Summary</h1>
-            <button>
+            <button class="edit">
               <img src="/assests/Edit Icon 2.svg" alt="Edit" />
             </button>
           </div>
@@ -1047,13 +1280,3002 @@
             <table class="table even">
               <tbody>
                 <tr>
-                  <td style="width: 25%">Patient Summary</td>
+                  <td style="width: 25%; padding-left: 1rem">
+                    Patient Summary
+                  </td>
                   <td style="width: 75%">
                     <div class="dashed">
                       <span>-</span>
                       <p></p>
                     </div>
                   </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- Physical Examination -->
+        <div class="physical_Examination sub_section">
+          <div class="section_header">
+            <h1>Physical Examination</h1>
+            <button class="edit">
+              <img src="/assests/Edit Icon 2.svg" alt="Edit" />
+            </button>
+          </div>
+          <div class="table_wrapper">
+            <table class="table profile_Details_table even">
+              <tbody>
+                <tr>
+                  <td class="td">Temperature</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Pulse</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Respiratory Rate</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Abdomen</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Acanthosis Nigricans</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Skin</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Eyes</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p>Yes</p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Nails</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td class="td">General Appearance</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Edema</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Gait</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Hair</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <td class="td">Tongue Teeth</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                    <!-- -<span>#304, Mathrusree Village Homes,Yemlur</span> -->
+                  </td>
+                  <td style="width: 2%"></td>
+                  <td class="td">Other</td>
+                  <td class="td">
+                    <div class="dashed">
+                      <span>-</span>
+                      <p></p>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <section id="consult_History" class="consult_History">
+        <div class="consult sub_section">
+          <div class="section_header">
+            <h1>Consult History</h1>
+            <button class="add_new">Add New Consult</button>
+          </div>
+          <div class="table_wrapper consult_wrapper">
+            <div class="data_table_wrapper">
+              <table class="data_table">
+                <tbody>
+                  <tr>
+                    <th><p style="width: 205px">Parameters</p></th>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Medical Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td> -->
+                  </tr>
+                  <tr>
+                    <th>Exercise Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Actual Consultation Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Current Stress</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Reason For Current Stress</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Diet Pattern</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Diet Remarks</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Outside Food Freq. (in a week)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Habits</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Duration And Frequency</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Type Of Exercise</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Exercise Duration</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Frequency per week</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Other Health Problem</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Other Problem/Improvements</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Surgeries Undergone</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section id="Physical_Measurements" class="Physical_Measurements">
+        <div class="consult sub_section">
+          <div class="section_header section_header2">
+            <h1>Physical Measurements</h1>
+            <!-- <button class="add_new">
+              Add New Consult
+            </button> -->
+          </div>
+          <div class="table_wrapper consult_wrapper">
+            <div class="data_table_wrapper">
+              <table class="data_table">
+                <tbody>
+                  <tr>
+                    <th><p style="width: 205px">Parameters</p></th>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Medical Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td> -->
+                  </tr>
+                  <tr>
+                    <th>Exercise Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Actual Consultation Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Doctor</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Body Type</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>T-shirt Size</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Weight (kg)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Height (cms)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Weight Circumference (cms)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Waist Height Ratio</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Fat Percent (%)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Visceral Fat Percent (%)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>BMI</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Subcutaneous Fat Percent (%)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Skeletal Muscle Mass</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Blood Pressure (mmHg)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Pulse (bpm)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section id="Lab_Report" class="Lab_Report">
+        <div class="consult sub_section">
+          <div class="section_header section_header2">
+            <h1>Lab Report</h1>
+            <!-- <button class="add_new">
+              Add New Consult
+            </button> -->
+          </div>
+          <div class="table_wrapper consult_wrapper">
+            <div class="data_table_wrapper">
+              <table class="data_table">
+                <tbody>
+                  <tr>
+                    <th><p style="width: 205px">Parameters</p></th>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Medical Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td> -->
+                  </tr>
+                  <tr>
+                    <th>Exercise Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Actual Consultation Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Data Entry Person</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Iron (µg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Hemoglobin (gm/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Blood Urea Nitrogen (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Sr Creatinine (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Uric Acid (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Calcium (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>eGFR (ml/min/1.73m²)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Visceral Fat Percent (%)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>eGFR Level</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Subcutaneous Fat Percent (%)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Skeletal Muscle Mass</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Old Electrolytes</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Sodium (Na)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Potassium (K)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Chloride (CI)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Total Cholesterol (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>HDL (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>TG (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>LDL (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>VLDL (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Total Bilirubin (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>SGPT</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>VLDL (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Total Protein (gm/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>S Albumin (gm/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>S Globulin (gm/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Albumin Globulin Ratio</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>TSH (μlU/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>T3 (ng/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>T4 (µg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Vitamin D (ng/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Vitamin B12 (pg/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>HbA1C (%)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Fasting Blood Glucose (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>PP Blood Glucose (mg/dl)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Urine pH</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Urine Sugar</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Urine Ketones</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Urine Pus Cells</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Urine Microalbumin (µg/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Urine Albumin Creatine Ratio</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Insulin Fasting (pU/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>HSCRP (mg/L)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>CRP</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>C Peptide Fasting (ng/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>C Peptide PP (ng/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Juice Feasting Number</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Other Deviations</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Remarks</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Urine Microalbumin (µg/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <!-- <tr>
+                    <th>Urine Microalbumin (µg/ml)</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr> -->
+                  <tr>
+                    <th>Other Investigation</th>
+                    <td>
+                      <div style="padding: 0.5rem">
+                        <p>09 Jan 2023</p>
+                        <span>Others</span>
+                        <a
+                          href="j2UzMPVskxZ3hIXe
+                        qt9d%2F167263917
+                        2344-Screenshot%2
+                        02022-12-08%20at%
+                        2012.02.35%20PM.
+                        png?alt=media&tok
+                        en=cde1033c-
+                        cc75-498d-81d6-
+                        e64859de4e2d"
+                          >j2UzMPVskxZ3hIXe qt9d%2F167263917 2344-Screenshot%2
+                          02022-12-08%20at% 2012.02.35%20PM. png?alt=media&tok
+                          en=cde1033c- cc75-498d-81d6- e64859de4e2d</a
+                        >
+                      </div>
+                      <div style="padding: 0.5rem">
+                        <p>09 Jan 2023</p>
+                        <span>Others</span>
+                        <a
+                          href="j2UzMPVskxZ3hIXe
+                        qt9d%2F167263917
+                        2344-Screenshot%2
+                        02022-12-08%20at%
+                        2012.02.35%20PM.
+                        png?alt=media&tok
+                        en=cde1033c-
+                        cc75-498d-81d6-
+                        e64859de4e2d"
+                          >j2UzMPVskxZ3hIXe qt9d%2F167263917 2344-Screenshot%2
+                          02022-12-08%20at% 2012.02.35%20PM. png?alt=media&tok
+                          en=cde1033c- cc75-498d-81d6- e64859de4e2d</a
+                        >
+                      </div>
+                    </td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section id="Treatment" class="Treatment">
+        <div class="consult sub_section">
+          <div class="section_header section_header2">
+            <h1>Treatment</h1>
+            <!-- <button class="add_new">Add New Consult</button> -->
+          </div>
+          <div class="table_wrapper consult_wrapper">
+            <div class="data_table_wrapper">
+              <table class="data_table">
+                <tbody>
+                  <tr>
+                    <th><p style="width: 205px">Parameters</p></th>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Medical Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td> -->
+                  </tr>
+                  <tr>
+                    <th>Exercise Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Actual Consultation Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Type Of Consult</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Clinic</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Diabetes Medication</th>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Other Medications</th>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>FFD Medications</th>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                      <div style="margin-bottom: 1rem">
+                        <p>U Ease 40mg</p>
+                        <p>1-0-0-1-0</p>
+                        <p>Before</p>
+                        <p>Everyday</p>
+                        <p>3-Month/s</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Diet Recommendations</th>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                    <td>
+                      Alternate days sprouts, Filtered Oil 2 tsp three times a
+                      day
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Diet Remarks</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Exercise Recommendations</th>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                    <td>
+                      Sampling and Specialization Phase 4: 3:2:1 Exercise Plan
+                      (Yoga : Cardio: Strength)
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Exercise Remarks</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Other Recommendations</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Progress Remark</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Follow Up Tests</th>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>After 6 Week/s</p>
+                        <p>(22-02-2023)</p>
+                        <p>2D Echo, All Tests</p>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Health Goals</th>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                    <td>
+                      <div style="margin-bottom: 1rem">
+                        <p>Within <span>2 Week/s</span></p>
+                        <p>(15-01-2023)</p>
+                        <p>HbA1c >89</p>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+
+      <section id="Remarks" class="Remarks">
+        <div class="consult sub_section">
+          <div class="section_header section_header2">
+            <h1>Review & Remarks</h1>
+            <!-- <button class="add_new">Add New Consult</button> -->
+          </div>
+          <div class="table_wrapper consult_wrapper">
+            <div class="data_table_wrapper">
+              <table class="data_table">
+                <tbody>
+                  <tr>
+                    <th><p style="width: 205px">Parameters</p></th>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="consult_edit">
+                        <div class="table_icon">
+                          <img src="/assests/Rx Icon borderless.svg" alt="" />
+                        </div>
+                        <p>Consult 3</p>
+                        <div class="table_icon">
+                          <img src="/assests/Edit Icon.svg" alt="" />
+                        </div>
+                      </div>
+                    </td>
+                  </tr>
+                  <tr>
+                    <th>Medical Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <!-- <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td>
+                       <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga earum nisi illum porro hic magni adipisci numquam! Dignissimos, soluta aperiam.</td> -->
+                  </tr>
+                  <tr>
+                    <th>Exercise Consult Scheduled Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Actual Consultation Date Time</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Consult Review Status</th>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                    <td>Lorem ipsum dolor sit</td>
+                  </tr>
+                  <tr>
+                    <th>Consult Review Remark</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Reviewed At</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <th>Reviewed By</th>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+        <!-- </div> -->
+      </section>
+      <section id="freedom_status" class="freedom_status">
+        <div class="sub_section freedom_stat ">
+          <div class="section_header">
+            <h1>Freedom Status</h1>
+            <button class="edit">
+              <img src="/assests/Edit Icon 2.svg" alt="Edit" />
+            </button>
+          </div>
+
+          <div class="freedom">
+            <div class="activation_thead">
+              <div style="width: calc(100% / 3)">Parameter</div>
+              <div style="width: calc(100% / 3)">History</div>
+              <div style="width: calc(100% / 3)">Current Freedom Status</div>
+            </div>
+
+            <table class="table even freedom_table">
+              <tbody>
+                <tr>
+                  <td style="width: calc(100% / 3)">Insulin</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                </tr>
+                <tr>
+                  <td style="width: calc(100% / 3)">Diabetes Medicine</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                </tr>
+                <tr>
+                  <td style="width: calc(100% / 3)">Cholesterol Medicine</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                </tr>
+                <tr>
+                  <td style="width: calc(100% / 3)">Thyroid Medicine</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                </tr>
+                <tr>
+                  <td style="width: calc(100% / 3)">Hypertension Medicine</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                </tr>
+                <tr>
+                  <td style="width: calc(100% / 3)">Cleared GTT</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                </tr>
+                <tr>
+                  <td style="width: calc(100% / 3)">Cleared IGT</td>
+                  <td style="width: calc(100% / 3)">-</td>
+                  <td style="width: calc(100% / 3)">-</td>
                 </tr>
               </tbody>
             </table>
