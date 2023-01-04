@@ -37,6 +37,11 @@ body {
   background-color: var(--background);
   font-family: "Roboto", sans-serif;
 }
+/* .section_wrapper {
+  width: 100%;
+  overflow-x: scroll;
+} */
+
 .header {
   display: flex;
   justify-content: space-between;
@@ -138,6 +143,11 @@ body {
   font-weight: 700;
 }
 /* btn section end  */
+
+/* All Sections */
+.All_sections {
+  margin: 0.8rem 0;
+}
 
 /* General info section */
 .profile_Details {
@@ -305,7 +315,7 @@ td {
   padding: 1rem;
 }
 .lifestyle_section {
-  border-radius: 0.5rem;
+  border-radius: 0 0 0.5rem 0.5rem;
 }
 
 .odd > tbody > tr:nth-child(odd) {
@@ -325,6 +335,8 @@ td {
 }
 /* consult history */
 .consult_History {
+  /* width: fit-content; */
+
   background-color: var(--white);
   margin-top: 1rem;
   border-radius: 0.5rem;
@@ -337,6 +349,8 @@ td {
   padding: 0.8rem;
   border-radius: 0.5rem;
 }
+/* .consult {
+} */
 
 /* .consult_para {
   padding: 1rem;
@@ -364,7 +378,7 @@ td {
 .consult_headers > tbody > tr:nth-child(odd) {
   background-color: var(--primary_light_1);
 }
-*/ .right_consult {
+.right_consult {
   width: 80%;
   height: 40px;
   background-color: red;
@@ -372,18 +386,20 @@ td {
 
 .data_table_wrapper {
   width: 100%;
-  overflow: scroll;
+  overflow-x: scroll;
   position: relative;
 }
 
 .data_table_wrapper::-webkit-scrollbar {
-  display: none;
+  /* display: none; */
 }
 
 .data_table {
-  overflow-x: scroll;
+  /* background-color: var(--white); */
+
   position: relative;
   border-collapse: collapse;
+  overflow-x: scroll;
 }
 .data_table > tbody > tr > td,
 .data_table > tbody > tr > th {
@@ -450,16 +466,20 @@ td {
   cursor: pointer;
 }
 .Physical_Measurements {
+  /* width: fit-content; */
+
   background-color: var(--white);
   margin-top: 1rem;
   border-radius: 0.5rem;
 }
 .Treatment {
+  /* width: fit-content; */
   background-color: var(--white);
   margin-top: 1rem;
   border-radius: 0.5rem;
 }
 .Remarks {
+  /* width: fit-content; */
   background-color: var(--white);
   margin-top: 1rem;
   border-radius: 0.5rem;
@@ -470,6 +490,9 @@ td {
   margin-top: 1rem;
   border-radius: 0.5rem;
 }
+/* .Lab_Report {
+} */
+
 .freedom_stat {
   border-radius: 0.5rem;
 }
@@ -477,7 +500,8 @@ td {
   margin-top: 1rem;
   border-radius: 0.5rem;
 }
-.freedom_table,.current_history_table {
+.freedom_table,
+.current_history_table {
   margin-top: 0.5rem;
 }
 
@@ -501,10 +525,61 @@ td {
 .restart_from {
   background-color: var(--restart_from_color);
 }
-.current_history_table>tbody>tr>td{
+.current_history_table > tbody > tr > td {
   text-align: center;
-  padding: 0.8rem;
+  padding: 0.6rem;
   font-weight: 300;
+  font-size: 1rem;
+  border-bottom: 0.5rem solid var(--white);
+}
+
+.tracker {
+  /* background-color: var(--white); */
+  margin-top: 1rem;
+  border-radius: 0.5rem;
+}
+.follow_up_tracker,
+.User_query_tracker {
+  background-color: var(--white);
+  border-radius: 0.5rem;
+}
+.follow_track {
+  margin-top: 1rem;
+}
+.follow_track_thead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.8rem;
+}
+.follow_track_table {
+  margin-top: 0.5rem;
+}
+.follow_track_table > tbody > tr > td {
+  text-align: center;
+  padding: 0.6rem 0.2rem;
+  font-weight: 300;
+  border-right: 0.8rem solid transparent;
+}
+.follow_track_table > tbody > tr:nth-child(even) {
+  background-color: var(--freedom_tr_color);
+}
+
+.follow_track_thead > div {
+  text-align: center;
+  color: var(--primary);
+  font-weight: 500;
+  border: 2px solid var(--grey);
+  /* padding: 0.8rem; */
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* user query tracker */
+.User_query_tracker {
+  margin-top: 0.5rem;
 }
 
 @media screen and (max-width: 1280px) {
