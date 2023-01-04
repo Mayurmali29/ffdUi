@@ -1,3 +1,6 @@
+/**
+ * For Scroll Sync
+ */
 const scrollers = document.getElementsByClassName("scroller");
 
 const scrollerDivs = Array.prototype.filter.call(
@@ -18,3 +21,7 @@ scrollerDivs.forEach(function (element, index, array) {
     scrollAll(e.target.scrollLeft);
   });
 });
+
+/**
+ * End
+ */

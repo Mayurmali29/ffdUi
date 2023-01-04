@@ -390,9 +390,9 @@ td {
   position: relative;
 }
 
-.data_table_wrapper::-webkit-scrollbar {
+/* .data_table_wrapper::-webkit-scrollbar { */
   /* display: none; */
-}
+/* } */
 
 .data_table {
   /* background-color: var(--white); */
