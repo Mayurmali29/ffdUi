@@ -19,20 +19,26 @@
             <span class="icon">></span>
             <span>Participant Master</span>
             <span class="icon">></span>
-            <span class="link"><a href="#">View Profile</a></span>
+            <span class="link"
+              ><a id="view_profile" href="#">View Profile</a></span
+            >
           </div>
-          <div class="name">
-            <h1><span>Mr. </span> Bulk 2 Test (INT 71)</h1>
+          <div class="name_div">
+            <h1>
+              <span id="userSalutation">Mr. </span>
+              <span id="name">Bulk 2 Test (INT 71)</span>
+              <span id="programInitial"></span>
+            </h1>
           </div>
         </div>
         <div class="userDetails">
           <div>
-            <p>Username : <span> 7684822072</span></p>
-            <p>VOIP Call Status : <span>In Active</span></p>
+            <p>Username : <span id="userName"> 7684822072</span></p>
+            <p>VOIP Call Status : <span id="voipCallStatus">In Active</span></p>
           </div>
           <p>
             App Status Support Active for
-            <span>Doctor, Diet Expert, Exercise Expert</span>
+            <span id="appStatus">Doctor, Diet Expert, Exercise Expert</span>
           </p>
         </div>
       </div>
@@ -87,8 +93,11 @@
             </button>
           </div>
           <div class="table_wrapper">
-            <table class="table profile_Details_table even">
-              <tbody>
+            <table
+              id="profile_Details_table"
+              class="table profile_Details_table even"
+            >
+              <tbody id="profile_Details_tbody">
                 <tr>
                   <td class="td">Name</td>
                   <td class="td">
@@ -455,8 +464,11 @@
             </button>
           </div>
           <div class="table_wrapper">
-            <table class="table profile_Details_table even">
-              <tbody>
+            <table
+              id="personal_details_table"
+              class="table profile_Details_table even"
+            >
+              <tbody id="personal_details_tbody">
                 <tr>
                   <td class="td">Height (in cm)</td>
                   <td class="td">
@@ -562,8 +574,8 @@
                 <p>Current Level of Physical Activity</p>
               </div>
               <div class="lifestyle_content">
-                <table class="table" style="margin: 0.5rem 0 0 0.5rem">
-                  <tbody>
+                <table id="lifestyle_table" class="table" style="margin: 0.5rem 0 0 0.5rem">
+                  <tbody id="lifestyle_tbody">
                     <tr>
                       <td class="td">Current Level</td>
                       <td class="td">
@@ -591,8 +603,8 @@
                 <div class="subhead_icon"></div>
                 <p>Diet Details</p>
               </div>
-              <table class="table even" style="margin: 0.5rem 0 0.8rem 0.5rem">
-                <tbody>
+              <table id="diet_details" class="table even" style="margin: 0.5rem 0 0.8rem 0.5rem">
+                <tbody id="diet_details_tbody">
                   <tr>
                     <td class="td">Diet Type</td>
                     <td class="td">
@@ -617,8 +629,8 @@
                 <div class="subhead_icon"></div>
                 <p>Habits</p>
               </div>
-              <table class="table even" style="margin: 0.5rem 0 0.8rem 0.5rem">
-                <tbody>
+              <table id="habits_table" class="table even" style="margin: 0.5rem 0 0.8rem 0.5rem">
+                <tbody id="habits_tbody">
                   <tr>
                     <td class="td">Alcohol</td>
                     <td class="td">
@@ -671,8 +683,8 @@
               <div style="width: calc(50% / 3)">End Date</div>
             </div>
 
-            <table class="table odd activation_tbody">
-              <tbody>
+            <table id="activation_details_table" class="table odd activation_tbody">
+              <tbody id="activation_details_tbody">
                 <tr>
                   <td style="width: 20%">App</td>
                   <td style="width: calc(50% / 3)">No</td>
@@ -737,8 +749,8 @@
             </button>
           </div>
           <div class="table_wrapper">
-            <table class="table profile_Details_table even">
-              <tbody>
+            <table id="diabetic_history_table" class="table profile_Details_table even">
+              <tbody id="diabetic_history_tbody">
                 <tr>
                   <td class="td">Date of Detection</td>
                   <td class="td">
@@ -874,8 +886,8 @@
             </button>
           </div>
           <div class="table_wrapper">
-            <table class="table profile_Details_table even">
-              <tbody>
+            <table id="comorbidities_table" class="table profile_Details_table even">
+              <tbody id="comorbidities_tbody">
                 <tr>
                   <td class="td">Hypertension</td>
                   <td class="td">
@@ -1048,7 +1060,7 @@
             </button>
           </div>
           <div class="table_wrapper">
-            <table class="table profile_Details_table even">
+            <table id="treatments_table" class="table profile_Details_table even">
               <tbody>
                 <tr>
                   <td class="td">Heart Attack</td>
@@ -1277,7 +1289,7 @@
             </button>
           </div>
           <div class="table_wrapper">
-            <table class="table even">
+            <table id="patient_summary" class="table even">
               <tbody>
                 <tr>
                   <td style="width: 25%; padding-left: 1rem">
@@ -1286,7 +1298,7 @@
                   <td style="width: 75%">
                     <div class="dashed">
                       <span>-</span>
-                      <p></p>
+                      <p id="patient_summary"></p>
                     </div>
                   </td>
                 </tr>
@@ -1304,8 +1316,8 @@
             </button>
           </div>
           <div class="table_wrapper">
-            <table class="table profile_Details_table even">
-              <tbody>
+            <table id="physical_Examination_table" class="table profile_Details_table even">
+              <tbody id="physical_Examination_tbody">
                 <tr>
                   <td class="td">Temperature</td>
                   <td class="td">
@@ -1441,8 +1453,8 @@
           </div>
           <div class="table_wrapper consult_wrapper">
             <div class="data_table_wrapper scroller">
-              <table class="data_table">
-                <tbody>
+              <table id="consult_history_table" class="data_table">
+                <tbody id="consult_history_tbody">
                   <tr>
                     <th><p style="width: 205px">Parameters</p></th>
                     <td>
@@ -1783,8 +1795,8 @@
           </div>
           <div class="table_wrapper consult_wrapper">
             <div class="data_table_wrapper scroller">
-              <table class="data_table">
-                <tbody>
+              <table id="physical_Measurements_table" class="data_table">
+                <tbody id="physical_Measurements_tbody">
                   <tr>
                     <th><p style="width: 205px">Parameters</p></th>
                     <td>
@@ -2139,8 +2151,8 @@
           </div>
           <div class="table_wrapper consult_wrapper">
             <div class="data_table_wrapper scroller">
-              <table class="data_table">
-                <tbody>
+              <table id="lab_report_table" class="data_table">
+                <tbody id="lab_report_tbody">
                   <tr>
                     <th><p style="width: 205px">Parameters</p></th>
                     <td>
@@ -3037,8 +3049,8 @@
           </div>
           <div class="table_wrapper consult_wrapper">
             <div class="data_table_wrapper scroller">
-              <table class="data_table">
-                <tbody>
+              <table id="treatment_data_table" class="data_table">
+                <tbody id="treatment_data_tbody">
                   <tr>
                     <th><p style="width: 205px">Parameters</p></th>
                     <td>
@@ -4008,8 +4020,8 @@
           </div>
           <div class="table_wrapper consult_wrapper">
             <div class="data_table_wrapper scroller">
-              <table class="data_table">
-                <tbody>
+              <table id="review_table" class="data_table">
+                <tbody id="review_tbody">
                   <tr>
                     <th><p style="width: 205px">Parameters</p></th>
                     <td>
@@ -4241,8 +4253,8 @@
               <div style="width: calc(100% / 3)">Current Freedom Status</div>
             </div>
 
-            <table class="table even freedom_table">
-              <tbody>
+            <table id="freedom_status_table" class="table even freedom_table">
+              <tbody id="freedom_status_tbody">
                 <tr>
                   <td style="width: calc(100% / 3)">Insulin</td>
                   <td style="width: calc(100% / 3)">-</td>
@@ -4299,7 +4311,7 @@
                 <div style="width: 10%">Action</div>
               </div>
 
-              <table class="table even current_history_table">
+              <table id="current_history_table" class="table even current_history_table">
                 <tbody>
                   <tr class="free_from">
                     <td style="width: 30%">Free from - 12 Nov 2016</td>
@@ -4354,8 +4366,8 @@
               <div style="width: calc(78% / 5)">Comment</div>
             </div>
 
-            <table class="table even follow_track_table">
-              <tbody>
+            <table id="followUp_tracker_table" class="table even follow_track_table">
+              <tbody id="followUp_tracker_tbody">
                 <tr>
                   <td style="width: calc(78% / 5)">19-Dec-2022 06:24 PM</td>
                   <td style="width: calc(78% / 5)">ITE Counselling</td>
@@ -4383,8 +4395,8 @@
               <div style="width: 15%">Status</div>
             </div>
 
-            <table class="table even follow_track_table">
-              <tbody>
+            <table id="user_query_table" class="table even follow_track_table">
+              <tbody id="user_query_tbody">
                 <tr>
                   <td style="width: 15%">#100111</td>
                   <td style="width: 25%">-</td>
@@ -4421,8 +4433,8 @@
               <div style="width: 8%">Actions</div>
             </div>
 
-            <table class="table even follow_track_table">
-              <tbody>
+            <table id="lcm_tracker_table" class="table even follow_track_table">
+              <tbody id="lcm_tracker_tbody">
                 <tr>
                   <td style="width: 10%">LCM 10</td>
                   <td style="width: 13%">Phase Satisfaction Check 10</td>
@@ -4457,8 +4469,8 @@
               <div style="width: calc(40% / 3)">Paid Amount</div>
             </div>
 
-            <table class="table even follow_track_table">
-              <tbody>
+            <table id="payment_details_table" class="table even follow_track_table">
+              <tbody id="payment_details_tbody">
                 <tr>
                   <td style="width: 20%">
                     Holistic Transformation Program For Diabetic - International
@@ -4498,8 +4510,8 @@
               <div style="width: 25%">Payment Mode</div>
             </div>
 
-            <table class="table even follow_track_table">
-              <tbody>
+            <table id="program_details_table" class="table even follow_track_table">
+              <tbody id="program_details_tbody">
                 <tr>
                   <td style="width: 25%">Rutuja Demo Test- 1000</td>
                   <td style="width: 25%">Intensive Program</td>

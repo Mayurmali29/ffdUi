@@ -1,3 +1,26 @@
+let userInfo = new Promise((resolve, reject) => {
+  fetch("./UsersInfo.json")
+    .then((respond) => {
+      return respond.json();
+    })
+    .then((data) => console.log(data))
+    .catch((err) => {
+      reject(err);
+    });
+});
+
+let user = new Promise((resolve, reject) => {
+  fetch("./Users.json")
+    .then((respond) => {
+      return respond.json();
+    })
+    .then((data) => console.log(data))
+    .catch((err) => {
+      reject(err);
+    });
+});
+console.log(userInfo);
+
 /**
  * For Scroll Sync
  */

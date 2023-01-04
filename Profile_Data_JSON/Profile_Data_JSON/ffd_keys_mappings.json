@@ -1,0 +1,1583 @@
+{
+  "mediaType": [
+    {
+      "video": "Video"
+    },
+    {
+      "audio": "Audio"
+    },
+    {
+      "pdf": "PDF"
+    }
+  ],
+  "mediaLanguage": [
+    {
+      "english": "English"
+    },
+    {
+      "hindi": "Hindi"
+    },
+    {
+      "marathi": "Marathi"
+    },
+    {
+      "english_and_hindi": "English and Hindi"
+    }
+  ],
+  "eventCategory": [
+    {
+      "ofs": "First Session & Onboarding Videos"
+    },
+    {
+      "drsonboarding": "DRS and Onboarding video"
+    },
+    {
+      "gs": "Group Session Videos"
+    },
+    {
+      "prerecordedgs": "Pre Recorded Group Sessions"
+    },
+    {
+      "practice": "Practice Sessions"
+    },
+    {
+      "practicestage1": "Practice Sessions Stage 1"
+    },
+    {
+      "practicestage2": "Practice Sessions Stage 2"
+    },
+    {
+      "live": "321 Live Session Videos"
+    },
+    {
+      "catchupsession": "Catch Up Session"
+    },
+    {
+      "becomingwiser": "Becoming Wiser Sessions"
+    },
+    {
+      "malharslowbmi": "Dr. Malhar's Low BMI Session"
+    },
+    {
+      "malharsinternational": "Dr. Malhar International Participants Session"
+    },
+    {
+      "short": "Short Videos"
+    },
+    {
+      "diet": "Diet Videos"
+    },
+    {
+      "exercise": "Exercise Videos"
+    },
+    {
+      "recipevideo": "Recipe Videos"
+    },
+    {
+      "medical": "Medical Videos"
+    },
+    {
+      "athleticidentityaudios": "Athletic Identity Audios"
+    },
+    {
+      "innertransformationaudios": "Inner Transformation Audios"
+    },
+    {
+      "recipebook": "Recipes Books"
+    },
+    {
+      "presentation": "Program Presentations"
+    },
+    {
+      "documents": "Documents"
+    }
+  ],
+  "gender": [
+    {
+      "m": "Male"
+    },
+    {
+      "f": "Female"
+    },
+    {
+      "o": "Other"
+    }
+  ],
+  "salutation": [
+    {
+      "mrs": "Mrs."
+    },
+    {
+      "ms": "Ms."
+    },
+    {
+      "mr": "Mr."
+    },
+    {
+      "dr": "Dr."
+    },
+    {
+      "master": "Master."
+    },
+    {
+      "major": "Major."
+    },
+    {
+      "brigadier": "Brigadier."
+    },
+    {
+      "captain": "Captain."
+    },
+    {
+      "prof": "Prof."
+    },
+    {
+      "colonel": "Col."
+    }
+  ],
+  "starStatus": [
+    {
+      "star_vip": "VIP"
+    },
+    {
+      "star_doctor": "Star Doctor"
+    },
+    {
+      "star_mentor": "Star Mentor"
+    },
+    {
+      "star_resource_person": "Star Resource Person"
+    },
+    {
+      "star_volunteer": "Star Volunteer"
+    }
+  ],
+  "ffdClinics": [
+    {
+      "5c651fa0e4d64275f532f192": "Ahmedabad Clinic"
+    },
+    {
+      "5bc04a5be4d6422db3e6fc6e": "Ahmednagar Clinic"
+    },
+    {
+      "5c651fa0e4d64275f532f191": "Amravati Clinic"
+    },
+    {
+      "5bd1b2dae4d6420adf0eeb9c": "Aurangabad Clinic"
+    },
+    {
+      "5d80add3e4d6423477cc97a5": "Belgaum Clinic"
+    },
+    {
+      "5b6c372fe4d642719c5f4933": "FFD Clinic"
+    },
+    {
+      "5bc04a5be4d6422db3e6fc6f": "Ghatkopar Clinic"
+    },
+    {
+      "5bc04a5be4d6422db3e6fc70": "Goa Clinic"
+    },
+    {
+      "5d01dffae4d6422c1d83db9f": "Hubli Clinic"
+    },
+    {
+      "5b9fb882e4d6424a7608a586": "Mumbai Clinic"
+    },
+    {
+      "5c108378e4d64249fc0e5916": "Nanded Clinic"
+    },
+    {
+      "5b9fb892e4d6424a7608a587": "Nashik Clinic"
+    },
+    {
+      "5c9a01bee4d6426bbaf319a9": "Nerul Clinic"
+    },
+    {
+      "5bc04a5be4d6422db3e6fc71": "Sangamner Clinic"
+    },
+    {
+      "5bc04a5be4d6422db3e6fc72": "Sanpada Clinic"
+    },
+    {
+      "5bc04a5be4d6422db3e6fc73": "Thane Clinic"
+    }
+  ],
+  "language": [
+    {
+      "5aff3328e4d64236b0a52298": "English"
+    },
+    {
+      "5aff3328e4d64236b0a52299": "Hindi"
+    },
+    {
+      "5aff3328e4d64236b0a5229a": "Marathi"
+    },
+    {
+      "5aff3328e4d64236b0a5229b": "Telugu"
+    },
+    {
+      "5aff3328e4d64236b0a5229c": "Tamil"
+    },
+    {
+      "5aff3328e4d64236b0a5229d": "Bengali"
+    },
+    {
+      "5aff3328e4d64236b0a5229e": "Gujarati"
+    },
+    {
+      "5aff3328e4d64236b0a5229f": "Kannada"
+    },
+    {
+      "5aff3328e4d64236b0a522a0": "Malayalam"
+    },
+    {
+      "5aff3328e4d64236b0a522a1": "Punjabi"
+    },
+    {
+      "5aff3328e4d64236b0a522a2": "Konkani"
+    },
+    {
+      "5aff3328e4d64236b0a522a3": "Kashmiri"
+    },
+    {
+      "5aff3328e4d64236b0a522a4": "Other"
+    },
+    {
+      "5cf8fddae4d64261c76bae3a": "Odiya"
+    },
+    {
+      "5cf8fddae4d64261c76bae3b": "Urdu"
+    },
+    {
+      "5cf8fddae4d64261c76bae3c": "Kutchi"
+    },
+    {
+      "5cf8fddae4d64261c76bae3d": "Marwadi"
+    },
+    {
+      "5cf8fddae4d64261c76bae3e": "Tulu"
+    },
+    {
+      "5cf8fddae4d64261c76bae3f": "Sindhi"
+    },
+    {
+      "5e68d1afe4d642327532b339": "other"
+    },
+    {
+      "5e68d1afe4d642327532b33a": "Spanish"
+    },
+    {
+      "5e68d1afe4d642327532b33b": "Arabic"
+    },
+    {
+      "5e68d1afe4d642327532b33c": "Portuguese"
+    },
+    {
+      "5e68d1afe4d642327532b33d": "Russian"
+    },
+    {
+      "5e68d1afe4d642327532b33e": "Japanese"
+    },
+    {
+      "5e68d1afe4d642327532b33f": "Chinese"
+    },
+    {
+      "5e68d1afe4d642327532b340": "French"
+    },
+    {
+      "5e68d1afe4d642327532b341": "German"
+    },
+    {
+      "5e68d1afe4d642327532b342": "Italian"
+    },
+    {
+      "5e92e9a4e4d6424f1846d3a5": "Bodo"
+    },
+    {
+      "60055b9bbb57b001ff1f1c4f": "Assamese"
+    },
+    {
+      "60055b9bbb57b001ff1f1c50": "Manipuri"
+    },
+    {
+      "60055b9bbb57b001ff1f1c51": "Jodhapuri"
+    }
+  ],
+  "specialization": [
+    {
+      "cardio": "Cardiology"
+    },
+    {
+      "anesthesiology": "Anesthesiology"
+    },
+    {
+      "general": "General Practice"
+    }
+  ],
+  "medicalDegree": [
+    {
+      "md": "M.D"
+    },
+    {
+      "bams": "B.A.M.S"
+    },
+    {
+      "mbbs": "M.B.B.S"
+    },
+    {
+      "bhms": "B.H.M.S"
+    }
+  ],
+  "leadSource": [
+    {
+      "app_referral": "App Referral"
+    },
+    {
+      "doctor": "Doctor"
+    },
+    {
+      "dr_b_m_hegde": "Dr B M Hegde / VIP"
+    },
+    {
+      "email": "Email Campaign"
+    },
+    {
+      "facebook": "Facebook"
+    },
+    {
+      "free_talk": "Free Talk"
+    },
+    {
+      "instagram": "Instagram"
+    },
+    {
+      "internet_search": "Internet Search"
+    },
+    {
+      "linkedin": "LinkedIn"
+    },
+    {
+      "muktotsav": "MUKTOTSAV"
+    },
+    {
+      "newspaper": "Newspaper/Magazines"
+    },
+    {
+      "not_captured": "Not Captured"
+    },
+    {
+      "other": "Other"
+    },
+    {
+      "outdoor_ads": "Outdoor Advertising"
+    },
+    {
+      "past": "Past Participant"
+    },
+    {
+      "radio": "Radio"
+    },
+    {
+      "sms": "SMS Campaign"
+    },
+    {
+      "tv_abp": "TV - ABP"
+    },
+    {
+      "tv_lokmat": "TV - Lokmat"
+    },
+    {
+      "tv_notknown": "TV - Not Known"
+    },
+    {
+      "tv_saam": "TV - Saam"
+    },
+    {
+      "tv_tv9": "TV - TV9"
+    },
+    {
+      "tv_zee": "TV - Zee"
+    },
+    {
+      "twitter": "Twitter"
+    },
+    {
+      "web": "Website"
+    },
+    {
+      "whatsapp": "WhatsApp"
+    },
+    {
+      "youtube": "YouTube"
+    },
+    {
+      "zendesk": "Zendesk"
+    }
+  ],
+  "modeOfContact": [
+    {
+      "7722000048": "7722000048"
+    },
+    {
+      "7776077760": "7776077760"
+    },
+    {
+      "9404309485": "9404309485"
+    },
+    {
+      "9881912049": "9881912049"
+    },
+    {
+      "9881912050": "9881912050"
+    },
+    {
+      "contact_us": "Contact Us"
+    },
+    {
+      "info_email": "Info Email"
+    },
+    {
+      "instagram": "Instagram"
+    },
+    {
+      "linkedin": "LinkedIn"
+    },
+    {
+      "7722000048": "7722000048"
+    },
+    {
+      "local_doctor": "Local Doctor"
+    },
+    {
+      "other": "Other"
+    },
+    {
+      "social_media": "Social Media"
+    },
+    {
+      "sticky_footer": "Sticky Footer"
+    },
+    {
+      "walkin": "Walkin"
+    },
+    {
+      "whatsapp_group": "Whatsapp Group"
+    },
+    {
+      "youtube": "YouTube"
+    },
+    {
+      "zendesk": "Zendesk"
+    }
+  ],
+  "engagementLevel": [
+    {
+      "high": "Highly Engaged"
+    },
+    {
+      "moderate": "Moderately Engaged"
+    },
+    {
+      "mild": "Mildly Engagement"
+    },
+    {
+      "less": "Less Engaged"
+    }
+  ],
+  "reasoningForJoining": [
+    {
+      "hypertension": "Hypertension"
+    },
+    {
+      "hypothyroid": "Hypothyroid"
+    },
+    {
+      "pcos": "PCOS/D"
+    },
+    {
+      "other": "Other"
+    }
+  ],
+  "maritalStatus": [
+    {
+      "married": "Married"
+    },
+    {
+      "unmarried": "Unmarried"
+    },
+    {
+      "divorced": "Divorced"
+    },
+    {
+      "remarried": "Remarried"
+    },
+    {
+      "widowed": "Widowed"
+    },
+    {
+      "separated": "Separated"
+    }
+  ],
+  "monthlyIncome": [
+    {
+      "1": "Less than 10000"
+    },
+    {
+      "2": "10000-30000"
+    },
+    {
+      "3": "30000-100000"
+    },
+    {
+      "4": "Greater than 100000"
+    },
+    {
+      "not_shared": "Do not want to share"
+    },
+    {
+      "not_applicable": "Not applicable"
+    }
+  ],
+  "educationList": [
+    {
+      "no_education": "No Formal Education"
+    },
+    {
+      "8th": "8th Std."
+    },
+    {
+      "10th": "10th Std."
+    },
+    {
+      "12th": "12th Std."
+    },
+    {
+      "diploma": "Diploma"
+    },
+    {
+      "grad": "Graduate"
+    },
+    {
+      "post_grad": "Post Graduate"
+    },
+    {
+      "phd": "Ph.D"
+    },
+    {
+      "other": "Other"
+    },
+    {
+      "not_shared": "Do not want to share"
+    }
+  ],
+  "occupationList": [
+    {
+      "student": "Student"
+    },
+    {
+      "business": "Business Owner"
+    },
+    {
+      "corporate": "Corporate Employee"
+    },
+    {
+      "independent": "Independent Professional"
+    },
+    {
+      "salaried": "Salaried"
+    },
+    {
+      "housewife": "Housewife"
+    },
+    {
+      "retired": "Retired"
+    },
+    {
+      "others": "Others"
+    },
+    {
+      "not_shared": "Do not want to share"
+    }
+  ],
+  "currentActivityLevel": [
+    {
+      "beginner": "Beginner"
+    },
+    {
+      "intermediate": "Intermediate"
+    },
+    {
+      "advance": "Advance"
+    }
+  ],
+  "dietType": [
+    {
+      "veg": "Veg"
+    },
+    {
+      "vegan": "Vegan"
+    },
+    {
+      "dairy_products": "Dairy Products"
+    },
+    {
+      "veg": "Vegetarian"
+    },
+    {
+      "egg": "Eggs"
+    },
+    {
+      "fish_sea_food": "Fish/Sea Food"
+    },
+    {
+      "non": "Nonveg(Chicken/Mutton/Beef)"
+    }
+  ],
+  "diabeticTypeList": [
+    {
+      "one": "1"
+    },
+    {
+      "two": "2"
+    },
+    {
+      "one_five": "1.5"
+    },
+    {
+      "mody": "MODY"
+    },
+    {
+      "lada": "LADA"
+    },
+    {
+      "GDM": "GDM"
+    },
+    {
+      "prediabetic": "Prediabetic"
+    },
+    {
+      "none": "None"
+    }
+  ],
+  "howDiagnosedList": [
+    {
+      "random": "Random"
+    },
+    {
+      "checkup": "Medical Check Up"
+    },
+    {
+      "infection": "Infection"
+    },
+    {
+      "rash": "Rashes"
+    },
+    {
+      "excess_thirst": "Excess Thirst"
+    },
+    {
+      "excess_urination": "Excess Urination"
+    },
+    {
+      "excess_hunger": "Excess Hunger"
+    },
+    {
+      "tiredness": "Tiredness"
+    },
+    {
+      "giddiness": "Giddiness"
+    },
+    {
+      "weight_loss": "Weight Loss"
+    },
+    {
+      "pregnancy": "Pregnancy"
+    },
+    {
+      "gdm": "Post GDM"
+    },
+    {
+      "pain": "Pain"
+    },
+    {
+      "boil": "Boils"
+    },
+    {
+      "other": "Other"
+    }
+  ],
+  "familyHistoryList": [
+    {
+      "paternal": "Paternal"
+    },
+    {
+      "maternal": "Maternal"
+    },
+    {
+      "sibling": "Sibling"
+    },
+    {
+      "both": "Both"
+    },
+    {
+      "none": "None"
+    }
+  ],
+  "currentStressDiabeticsList": [
+    {
+      "professional": "Professional"
+    },
+    {
+      "personal": "Personal"
+    },
+    {
+      "both": "Both"
+    },
+    {
+      "none": "None"
+    }
+  ],
+  "otherComplicationsList": [
+    {
+      "eye": "Eye"
+    },
+    {
+      "heart": "Heart"
+    },
+    {
+      "kidney": "Kidney"
+    },
+    {
+      "nerve": "Nerve"
+    }
+  ],
+  "otherHealthProblemsList": [
+    {
+      "irritability": "Irritability"
+    },
+    {
+      "lethargy": "Lethargy"
+    },
+    {
+      "night_bed_wetting": "Night bed wetting"
+    },
+    {
+      "fruity_smell_of_breath": "Fruity smell of breath"
+    },
+    {
+      "progressive_weight_loss": "Progressive weight loss"
+    },
+    {
+      "tiredness": "Tiredness"
+    },
+    {
+      "giddiness": "Giddiness"
+    },
+    {
+      "low_bp_hypotension": "Low BP-hypotension"
+    },
+    {
+      "others": "Others"
+    }
+  ],
+  "acanthosisNigricansList": [
+    {
+      "grade1": "Grade 1"
+    },
+    {
+      "grade2": "Grade 2"
+    },
+    {
+      "grade3": "Grade 3"
+    },
+    {
+      "grade4": "Grade 4"
+    }
+  ],
+  "edemaList": [
+    {
+      "face": "Face"
+    },
+    {
+      "foot": "Feet"
+    },
+    {
+      "body": "Whole Body"
+    }
+  ],
+  "skinList": [
+    {
+      "thin": "Thin"
+    },
+    {
+      "shiny": "Shiny"
+    },
+    {
+      "black_spot": "Black Spots"
+    },
+    {
+      "rashes": "Rashes"
+    }
+  ],
+  "habits": [
+    {
+      "smoking": "Smoking"
+    },
+    {
+      "tobacco": "Tobacco"
+    },
+    {
+      "alcohol": "Alcohol"
+    },
+    {
+      "none": "None"
+    }
+  ],
+  "otherHealthProblems": [
+    {
+      "acidity": "Acidity"
+    },
+    {
+      "constipation": "Constipation"
+    },
+    {
+      "gases": "Gases"
+    },
+    {
+      "sleep": "Sleep"
+    },
+    {
+      "tiredness": "Tiredness"
+    },
+    {
+      "anxiety": "Anxiety"
+    },
+    {
+      "fear": "Fear"
+    },
+    {
+      "anger": "Anger"
+    },
+    {
+      "depression": "Depression"
+    },
+    {
+      "high_cholestrol": "High Cholesterol"
+    },
+    {
+      "hypertension": "Hypertension"
+    },
+    {
+      "hypothyroid": "Hypothyroid"
+    },
+    {
+      "heart_disease": "Heart Disease"
+    },
+    {
+      "cva": "CVA"
+    },
+    {
+      "nephropathy": "Nephropathy"
+    },
+    {
+      "autonomic_neuropathy": "Autonomic Neuropathy"
+    },
+    {
+      "sensory_neuropathy": "Sensory Neuropathy"
+    },
+    {
+      "motor_neuropathy": "Motor Neuropathy"
+    },
+    {
+      "retinopathy": "Retinopathy"
+    },
+    {
+      "sexual_dysfunction": "Sexual Dysfunction"
+    },
+    {
+      "weight_loss": "Weight Loss"
+    },
+    {
+      "weight_gain": "Weight Gain"
+    },
+    {
+      "back_pain": "Back Pain"
+    },
+    {
+      "joint_pain": "Joint Pain"
+    },
+    {
+      "hair_loss": "Hair Loss"
+    },
+    {
+      "edema": "Edema"
+    },
+    {
+      "skin": "Skin"
+    },
+    {
+      "leg_foot_problems": "Leg & Foot problems (varicose veins/sciatica/unhealing wound/gangrene)"
+    },
+    {
+      "infection_around_genitals": "Infection around genitals"
+    },
+    {
+      "frozen_shoulder": "Frozen Shoulder"
+    },
+    {
+      "knee_pain": "Knee Pain"
+    },
+    {
+      "pcod": "PCOD"
+    },
+    {
+      "kidney_stone": "Kidney Stone"
+    },
+    {
+      "fatty_liver_grade_1": "Fatty Liver Grade 1"
+    },
+    {
+      "fatty_liver_grade_2": "Fatty Liver Grade 2"
+    },
+    {
+      "fatty_liver_grade_3": "Fatty Liver Grade 3"
+    },
+    {
+      "fatty_liver_grade_4": "Fatty Liver Grade 4"
+    },
+    {
+      "liver_cirrhosis": "Liver Cirrhosis"
+    },
+    {
+      "esophageal_varices": "Esophageal Varices"
+    },
+    {
+      "others": "Others"
+    },
+    {
+      "no_complaints": "No Fresh Complaints"
+    }
+  ],
+  "bodyType": [
+    {
+      "endo": "Endo"
+    },
+    {
+      "meso": "Meso"
+    },
+    {
+      "ecto": "Ecto"
+    }
+  ],
+  "tShirtSize": [
+    {
+      "xxxl": "XXXL"
+    },
+    {
+      "xxl": "XXL"
+    },
+    {
+      "xl": "XL"
+    },
+    {
+      "l": "L"
+    },
+    {
+      "m": "M"
+    },
+    {
+      "s": "S"
+    },
+    {
+      "xs": "XS"
+    }
+  ],
+  "egfrLevel": [
+    {
+      "normal": "Normal"
+    },
+    {
+      "mild_decrease": "Mild Decrease"
+    },
+    {
+      "mild_to_moderate_decrease": "Mild to Moderate Decrease"
+    },
+    {
+      "moderate_to_severe_decrease": "Moderate to Severe Decrease"
+    },
+    {
+      "severe_decrease": "Severe Decrease"
+    },
+    {
+      "none": "None"
+    }
+  ],
+  "typeOfLabReports": [
+    {
+      "lab_reports": "Lab Reports"
+    },
+    {
+      "retina_reports": "Retina Reports"
+    },
+    {
+      "foot_reports": "Foot Reports"
+    },
+    {
+      "others": "Others"
+    },
+    {
+      "echo": "2D Echo"
+    },
+    {
+      "colonoscopy": "Colonoscopy"
+    },
+    {
+      "color_doppler": "Color Doppler"
+    },
+    {
+      "ct_scan": "CT Scan"
+    },
+    {
+      "ecg": "ECG"
+    },
+    {
+      "endoscopy": "Endoscopy"
+    },
+    {
+      "mri": "MRI"
+    },
+    {
+      "stress_test": "Stress Test"
+    },
+    {
+      "usg": "USG"
+    },
+    {
+      "xray": "X-Ray"
+    }
+  ],
+  "typeOfConsult": [
+    {
+      "personal": "Personal"
+    },
+    {
+      "telephonic": "Telephonic"
+    },
+    {
+      "email_reply": "Email Reply"
+    },
+    {
+      "random_date_entered": "Random Date Entered"
+    },
+    {
+      "trp": "TRP"
+    }
+  ],
+  "medicineCommentMap": [
+    {
+      "after": "After"
+    },
+    {
+      "after_brushing_teeth": "After Brushing Teeth"
+    },
+    {
+      "after_smoothie": "After Smoothie"
+    },
+    {
+      "at_bed_time": "At Bed Time"
+    },
+    {
+      "before": "Before"
+    },
+    {
+      "teaspoon_in_glass_of_water": "Teaspoon/s in a glass of water"
+    },
+    {
+      "teaspoon": "Teaspoon/s"
+    },
+    {
+      "ml": "ml"
+    }
+  ],
+  "medicineFrequencyMap": [
+    {
+      "alternate_day": "Alternate Day"
+    },
+    {
+      "every_day": "Everyday"
+    },
+    {
+      "one_per_week": "1 per Week"
+    },
+    {
+      "one_per_week_intra_muscular": "1 per Week Intra-Muscular"
+    },
+    {
+      "one_per_month": "1 per Month"
+    },
+    {
+      "monday_friday": "Monday - Friday"
+    },
+    {
+      "saturday_sunday": "Saturday - Sunday"
+    },
+    {
+      "single_dose": "Single Dose"
+    },
+    {
+      "single_dose_orally": "Single Dose Orally"
+    },
+    {
+      "as_required": "As Required"
+    },
+    {
+      "once_in_fifteen_days": "Once in 15 days"
+    },
+    {
+      "monday_saturday": "Monday - Saturday"
+    }
+  ],
+  "medicineDurationMap": [
+    {
+      "day": "Day/s"
+    },
+    {
+      "week": "Week/s"
+    },
+    {
+      "month": "Month/s"
+    }
+  ],
+  "lcmQuestionCategory": [
+    {
+      "lcm": "LCM"
+    },
+    {
+      "adherance": "Adherance"
+    },
+    {
+      "general": "General"
+    },
+    {
+      "satisfaction": "Satisfaction"
+    }
+  ],
+  "lcmQuestionFieldList": [
+    {
+      "bmi": "BMI"
+    },
+    {
+      "diabetes": "Diabetes"
+    }
+  ],
+  "lcmQuestionExpressionList": [
+    {
+      "less_than": "<"
+    },
+    {
+      "less_than_equal": "<="
+    },
+    {
+      "equal_to": "=="
+    },
+    {
+      "greater_than": ">"
+    },
+    {
+      "greater_than_equal": ">="
+    },
+    {
+      "not_equal": "!="
+    }
+  ],
+  "lcmQuestionTypeOfQuestionList": [
+    {
+      "multi_choice": "Multi Choice"
+    },
+    {
+      "true_or_false": "True or False"
+    },
+    {
+      "explain": "Explain"
+    },
+    {
+      "single_choice": "Single Choice"
+    },
+    {
+      "range": "Range"
+    }
+  ],
+  "mentorCategoryList": [
+    {
+      "insulin": "Insulin"
+    },
+    {
+      "medicine": "Medicine"
+    },
+    {
+      "both": "Both"
+    }
+  ],
+  "mentorBackgroundList": [
+    {
+      "housewife": "Housewife"
+    },
+    {
+      "retired": "Retired"
+    },
+    {
+      "lic": "LIC Service"
+    },
+    {
+      "kirlosker": "Kirlosker"
+    },
+    {
+      "teacher": "Teacher"
+    },
+    {
+      "voice_over_artist": "Voice over Artist"
+    },
+    {
+      "ias": "IAS"
+    },
+    {
+      "corporate": "Corporate"
+    },
+    {
+      "business": "Business"
+    },
+    {
+      "home_maker": "Home maker"
+    },
+    {
+      "salaried": "Salaried"
+    },
+    {
+      "employee": "Employee"
+    },
+    {
+      "independent_professional": "Independent Professional"
+    }
+  ],
+  "vendorCategoryList": [
+    {
+      "5aff3328e4d64236b0a52294": "Organic Grocery"
+    },
+    {
+      "5e326360e4d642679bc381c4": "Other"
+    },
+    {
+      "5e326360e4d642679bc381b7": "Pathology Labs"
+    }
+  ],
+  "recipeCategoryList": [
+    {
+      "smoothies": "Smoothies"
+    },
+    {
+      "breakfast": "Breakfast"
+    },
+    {
+      "chutneys": "Chutneys & Dips"
+    },
+    {
+      "snacks": "Snacks"
+    },
+    {
+      "juices": "Juices"
+    },
+    {
+      "meals": "Meals"
+    },
+    {
+      "desserts": "Desserts"
+    },
+    {
+      "salad": "Salad"
+    }
+  ],
+  "lcmNumberList": [
+    {
+      "1": "1"
+    },
+    {
+      "2": "2"
+    },
+    {
+      "3": "3"
+    },
+    {
+      "4": "4"
+    },
+    {
+      "5": "5"
+    },
+    {
+      "6": "6"
+    },
+    {
+      "7": "7"
+    },
+    {
+      "8": "8"
+    },
+    {
+      "9": "9"
+    },
+    {
+      "10": "10"
+    },
+    {
+      "11": "11"
+    },
+    {
+      "12": "12"
+    }
+  ],
+  "expertRoleList": [
+    {
+      "doctor": "Doctor"
+    },
+    {
+      "mentor": "Mentor"
+    },
+    {
+      "diet_expert": "Diet Expert"
+    },
+    {
+      "exercise_expert": "Exercise Expert"
+    }
+  ],
+  "nationality": [
+    {
+      "national": "National"
+    },
+    {
+      "international": "International"
+    }
+  ],
+  "patientType": [
+    {
+      "primary_diabetic": "Primary - Diabetic"
+    },
+    {
+      "primary_other": "Primary - Other"
+    },
+    {
+      "supporting": "Supporting"
+    }
+  ],
+  "isDiabetic": [
+    {
+      "true": "Yes"
+    },
+    {
+      "false": "No"
+    },
+    {
+      "not_known": "Not Known"
+    }
+  ],
+  "medicineTypeList": [
+    {
+      "tab": "Tablet"
+    },
+    {
+      "cap": "Capsule"
+    },
+    {
+      "syr": "Syrup"
+    },
+    {
+      "inj": "Injection"
+    },
+    {
+      "other": "Other"
+    }
+  ],
+  "queryCategoryList": [
+    {
+      "app_and_tech": "App and Tech"
+    },
+    {
+      "appointment": "Appointment"
+    },
+    {
+      "batch_change": "Batch Change"
+    },
+    {
+      "covid_certificate": "Covid Certification"
+    },
+    {
+      "diet": "Diet Related"
+    },
+    {
+      "medicine_or_doctor": "Doctor or Medicine Related"
+    },
+    {
+      "exercise": "Exercise Related"
+    },
+    {
+      "feedback_and_suggestion": "Feedback and suggestion"
+    },
+    {
+      "inner_transformation": "Inner Transformation Related"
+    },
+    {
+      "insurance_related": "Insurance Related"
+    },
+    {
+      "no_response_expert": "No Response From Expert"
+    },
+    {
+      "other": "Other"
+    },
+    {
+      "pending_payment": "Pending Payment"
+    },
+    {
+      "receipts_and_prescription": "Reciept Or Prescription"
+    },
+    {
+      "refund": "Refund Request"
+    },
+    {
+      "report": "Report Related"
+    },
+    {
+      "expert_change_request": "Request For Changing Expert"
+    },
+    {
+      "sales": "Sales"
+    },
+    {
+      "whatsapp": "Whatsapp Related"
+    }
+  ],
+  "queryPriorityList": [
+    {
+      "1": "P1"
+    },
+    {
+      "2": "P2"
+    },
+    {
+      "3": "P3"
+    },
+    {
+      "4": "P4"
+    }
+  ],
+  "paymentModeList": [
+    {
+      "bank_cash_deposit": "Bank Cash Deposit"
+    },
+    {
+      "bank_transfer": "Bank Transfer"
+    },
+    {
+      "ccavenue_app": "CCAvenue - APP"
+    },
+    {
+      "ccavenue_website": "CCAvenue - Website"
+    },
+    {
+      "cash": "Cash"
+    },
+    {
+      "cheque": "Cheque"
+    },
+    {
+      "card": "Debit Card/Credit Card"
+    },
+    {
+      "instamojo": "Instamojo"
+    },
+    {
+      "paypal": "PayPal"
+    }
+  ],
+  "calendarTypeList": [
+    {
+      "key": "global",
+      "name": "Global Calendar"
+    },
+    {
+      "key": "batch",
+      "name": "Batch Calendar"
+    },
+    {
+      "key": "p2p",
+      "name": "Personal Calendar"
+    }
+  ],
+  "eventTypeList": [
+    {
+      "key": "zoom",
+      "name": "Zoom Event"
+    },
+    {
+      "key": "lcm",
+      "name": "Program Adherence Event"
+    },
+    {
+      "key": "nps",
+      "name": "NPS Event"
+    }
+  ],
+  "eventTypeListForGlobal": [
+    {
+      "key": "zoom",
+      "name": "Zoom Event"
+    }
+  ],
+  "paymentStatusList": [
+    {
+      "all": "Select all"
+    },
+    {
+      "cancelled": "Cancelled"
+    },
+    {
+      "success": "Cleared"
+    },
+    {
+      "free": "Free"
+    },
+    {
+      "partial": "Pending"
+    },
+    {
+      "refunded": "Refunded"
+    },
+    {
+      "write_off": "Write Off"
+    }
+  ],
+  "paymentVerificationList": [
+    {
+      "all": "Select All"
+    },
+    {
+      "verified": "Verified"
+    },
+    {
+      "not_verified": "Not Verified"
+    }
+  ],
+  "faqStatusList": [
+    {
+      "draft": "Draft"
+    },
+    {
+      "reviewed": "Reviewed"
+    },
+    {
+      "published": "Published"
+    },
+    {
+      "obsolete": "Obsolete"
+    }
+  ],
+  "time": 1672465713215
+}
